@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div>
+    element: <div className='bg-slate-500'>
               <Header />
               <main>
                 <Homepage />
